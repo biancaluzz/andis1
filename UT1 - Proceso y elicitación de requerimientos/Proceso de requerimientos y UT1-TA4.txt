@@ -1,0 +1,58 @@
+PROCESO DE REQUERIMIENTOS
+
+Concepción: 
+Surge con una idea. Se realizan estimaciones preliminares de alcance y costos ROM (hay un desvío entre -25% y +75%). ¿Cuándo se tiene un entendimiento suficiente y cuándo es suficiente?
+	-necesidad o motivo de la concepción claramente identificado
+	-lista preliminar de stakeholders
+	-lista preliminar de riesgos 
+	-sponsor
+	-restricciones de tiempo y costo
+
+Alcance: 
+Identificar el límite entre el área de trabajo y el resto del universo, entradas, servicios, no solamente key stakeholders y su nivel de involucramiento, y especificar restricciones.
+
+Determinación del producto: 
+	-Área de trabajo
+	-BE(business event) es algo que sucede en el sistema adyacente. Cada BUC son un conjunto de funcionalidades que dan respuesta a un BE.
+	-BUC(business use case) por cada business event list existe una respuesta planificada que llamaremos caso de uso de negocio. Cada evento dispara un proceso.
+	-PUC(product use case) una vez identificado el BUC, lo automatizo.
+
+Se tiene que identificar que parte del proceso se va a resolver con el nuevo prodocuto/servicio.
+
+Construcción: 
+Una vez que están los requisitos bien definidos
+	-Funcionales
+	-No funcionales
+	-Restricciones
+	-Criterios de aceptación
+Además de tener trazabilidad, es decir que cada requisito debe ser facilmente trackeable al BUC que lo originó.
+
+Estrategias:
+	-Iterativa: El producto se contruye mediante pequeños incrementos. En cada iteración se agrega valor y tiene feedback, por lo que si hay algún error se corrige a menor costo. Cuando surge un imprevisto, tengo que volver al work investigation para ver cómo lo manejo.
+	-Cascada: Como no es iterativo, la comunicación con el cliente se corta en la primera etapa. Además, si surge un error en alguna de las etapas, se deberá repetir todo el ciclo o se arrastrará el error.
+
+Rol del analista de negocios: anters era un rol muy pasivo, entrevistaba a los usuarios y escribía lo que le dijeran. Los requerimientos mal relevados son motivo de fallas en más de la mitad de los proyectos. Hoy en día el énfasis está en entender el verdadero problema a resolver, la necesidad. Enfocarse primero en la necesidad y no tanto en la solución. El analista termina entendiendo mejor que el cliente el problema a resolver.
+
+Documentar requerimientos:
+Hay que priorizar los BUC e incluir los más relevantes. La documentación sirve para relevar y verificar que se están haciendo las cosas como se pretende.
+
+#A medida que un proyecto avanza, los costos de desarrollo van a incrementarse (mantenimiento evolutivo), el beneficio que agrega tener más funcionalidades va bajando respecto al costo.
+
+
+Parte 1 
+Describir el proceso actual, en lenguaje natural, de cómo se inscribieron al curso de análisis y diseño de aplicaciones. No se limiten a lo que hacen en people, sino a todo lo que ocurre por detrás. Es decir, si no tuvieran Peoplesoft, ¿cómo es el proceso? 
+1. Averiguar fecha de inscripciones
+2. Averiguar códigos de las materias
+3. Ingresar a autogestión el día de las inscripciones
+4. Ingresar los códigos previamente averiguados.
+
+Parte 2 
+De lo anterior, identificar: Área de trabajo, BE, BUC, PUC. 
+-Área de trabajo: Gestión de estudiantes
+-BE: Me quiero inscribir a la materia
+-BUC: Inicio sesión al sistema y me inscribo
+-PUC: Inicio sesión al sistema y me inscribo
+
+
+
+

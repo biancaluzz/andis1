@@ -1,0 +1,79 @@
+Luego del blastoff tenemos un área de trabajo definida. Si es muy grande, partirla en subáreas, una forma de hacerlo es por los BE (pueden tener una acción directa sobre los BUC o indirecta como por tiempo). La respuesta a esos eventos son los BUC, que son una colección de procesos identificables, datos, salida y mensajes enviados o alguna combinación de estos. Después del estudio, los analistas de requisitos deciden cuánto del BUC será manejado por el producto propuesto (PUC).
+
+Es fundamental entender el área de negocio para entender qué tipo de producto construir. Hay que analizar el sistema en su totalidad, es decir al actor, la interacción con el sistema y el trabajo que rodea esta interacción.
+Trabajo=sistema haciendo cosas.
+Sistema=cualquier cosa que produzca bienes/servicios o información útil para su dueño.
+
+Cuando se determinan los casos de uso del producto, también se están seleccionando los actores que interactúan con él. Los actores son las personas o sistemas que interactúan con el producto automatizado (PUC).
+
+Técnicas de relevamiento para descubrir los procesos del negocio y las personas involucradas en ellos. 
+#El punto de partida para descubrir los requisitos son los BUC.
+
+Técnicas:
+
+1. Apprenticing: el analista se pone en la posición del usuario, le muestra cómo trabaja y él definirá qué es lo que necesita. Puede ser que esté de incógnito o que sepan que está trabajando ahí. No es aplicable a todos los trabajos. Es apropiado cuando se espera reimplementar partes significativas del trabajo y los sistemas actuales.
+
+2. Workshop (BUC): se juntan todos a hablar y registrar la información. La diferencia con el anterior es que antes el analista es espectador, ahora la persona también ayuda a decir lo que se necesita y cómo es el negocio. Es útil cuando se están realizando cambios fundamentales en el trabajo y deben incluir a los interesados especializados adecuados. Incluye el resultado deseado para el BUC, un escenario de caso normal y escenarios de excepción.
+
+3. Entrevistas: no todas las personas sirven para ser entrevistadas, necesita hacer el trabajo y tener habilidades de comunicación, es por eso que es complejo, no toda persona está hecha para ser entrevistada y sacar de ella buenos requerimientos. No es ir y que el usuario cuente lo que quiere, hay que tener una guía preparada.
+
+4. Reutilización: parte de 2 grandes supuestos.
+	1-Es probable que alguien en su organización haya estudiado un trabajo similar y haya escrito requisitos para un producto similar. 
+	2-Se tiene una base de conocimiento lo suficientemente sólida como para poder navegar y encontrar esos requisitos.
+Es posible estabelecer similitudes entre procesos y utilizar requisitos abstractos para ahorrar tiempo en proyectos posteriores.
+
+5. Dirty Process Modeling: no son modelos formales, es para construir modelos y validar ideas rápidamente.
+	-Prototipos: especialmente útil cuando se va a hacer algo que no existe y que es difícil de imaginar. Es más fácil sacar información del prototipo (por ejemplo, toco un botón y espero que haga una cosa en vez de otra). Es desechable, no seguir construyendo sobre el prototipo
+	-Mind map: es una forma rápida de representar gran cantidad de información. No necesariamente tiene que ser texto, también se pueden dibujar cosas.
+	-Wikis, blogs, discussion forums: cuando tenemos proyectos grandes, es importante saber qué opina la comunidad.
+
+6. Document archeology: Es una técnica que consiste en buscar requisitos subyacentes en informes y archivos existentes. Es útil cuando se tiene un sistema existente o heredado que se planea modificar o renovar. 
+Sesgo, existe la posibilidad de no pensar en cómo funciona el sistema y solo uso las cosas anteriores.
+
+7. Family therapy: no buscan que las personas estén de acuerdo. En cambio, su objteivo es hacer posible que las personas escuchen y comprendan las posiciones de los demás individuos. Se utiliza en grupos diversos de personas, utiliza ideas de la terapia familiar y un bucle de retroalimentación para evitar malentendidos.
+
+7. Persona analysis: construimos perfiles y empezamos a probarlos en como sería el proceso. Destaca la importancia de las personas, facilitando la comunicación entre los miembros del equipo. Se incluye las habilidades, preocupaciones, objetivos y competencias tecnológicas. El objetivo es el fin que estoy buscando con la preocupación.
+
+¿Cómo elegir la técnica? No existe una mejor, depende de varios factores. El primero es que el analista de negocio se sienta cómodo con la técnica. Consideraciones adicionales: geografía (ubicación de los stakeholders, ej: remoto), legado (si hay que conservar un legado considerable, entonces algunas técnicas más abstractas no serán adecuadas), abstracción (realidades físicas o abstractas).
+
+
+1) La empresa XYZ quiere desarrollar una nueva aplicación móvil y necesita recopilar información sobre las necesidades y preferencias de sus usuarios potenciales. El equipo de desarrollo quiere crear perfiles ficticios de usuarios ideales para guiar sus decisiones de diseño y funcionalidad.
+	
+Persona analysis, porque está hecha para crear perfiles de usuarios ficticios. De esta manera conoces mejor a tu potencial cliente para adecuar así la aplicación.
+
+2) Un equipo de desarrolladores está trabajando en un proyecto de software empresarial y necesita analizar y documentar los procesos actuales de la empresa. Los miembros del equipo quieren comprender en profundidad el flujo de trabajo diario y las responsabilidades de los empleados involucrados en estos procesos.
+	
+Apprenticing, ya que al ponerse en el rol de usuario, uno comprende en profundidad el trabajo.
+
+3) Durante una reunión de proyecto, un grupo de interesados se enfrenta a desacuerdos y conflictos en torno a las necesidades y prioridades del proyecto. El equipo necesita una forma de abordar estas diferencias y facilitar la comunicación entre los miembros del grupo.
+
+Family Therapy, ya que se están enfrentando a desacuerdos, por lo que esto permitirá que comprendan la posición de los demás individuos.
+
+4) Un equipo de diseño de productos está buscando generar ideas creativas para mejorar la experiencia del usuario en su plataforma de comercio electrónico. Quieren fomentar la colaboración y la participación de todos los miembros del equipo en la generación de ideas.
+
+Brainstorming, ya que pone gran foco en lo creativo y facilitar la generación de ideas.
+
+5) La empresa ABC quiere rediseñar su sitio web y está buscando obtener información detallada sobre cómo los usuarios interactúan con el diseño actual. El equipo de desarrollo desea comprender las dificultades que los usuarios enfrentan y cómo podrían mejorar la experiencia general del usuario.
+
+Workshop, ya que se están realizando cambios en el sisito web y se enfoca en los stakeholders relevantes.
+
+
+6) La empresa de tecnología AlfaBeta está desarrollando un sistema de administración de proyectos para equipos distribuidos. Desean comprender cómo los empleados de diferentes departamentos y ubicaciones geográficas colaboran en proyectos y se comunican entre sí para garantizar la entrega exitosa de proyectos. Además, quieren identificar patrones comunes en la estructura y organización de la información en estos proyectos para desarrollar una solución que facilite la colaboración y la gestión eficiente de los recursos.
+
+Entrevistas, porque se puede ver de qué forma trabajan y se comunican en los diferentes departamentos. Además no se necesita de la presencialidad.
+
+7) La startup GreenTech está creando una aplicación de seguimiento de huella de carbono para ayudar a los usuarios a monitorear y reducir su impacto ambiental. El equipo de GreenTech quiere explorar diferentes enfoques y funcionalidades para la aplicación, y necesita un método para organizar y visualizar sus ideas de manera clara y estructurada. Además, buscan identificar las conexiones y relaciones entre las distintas áreas y características de la aplicación para garantizar una experiencia de usuario coherente e intuitiva.
+
+Mind map, permite organizar la información de manera clara y así poder ver los resultados.
+
+8) La compañía de software BigDataCorp está trabajando en una solución de análisis de datos para empresas que buscan mejorar su toma de decisiones basada en datos. El equipo de BigDataCorp quiere colaborar con expertos en análisis de datos y empleados de empresas objetivo para comprender mejor sus necesidades y desafíos. El equipo necesita una plataforma en línea que facilite la comunicación y el intercambio de información entre los miembros del equipo y los expertos, y que permita a los participantes agregar y modificar contenido de manera fácil y eficiente.
+
+Wikis, ya que usan plataformas en linea permitiendo la comunicación entre trabajadores.
+
+9) Una organización sin fines de lucro busca modernizar su sistema de gestión de donaciones y voluntarios. El equipo de desarrollo quiere construir una versión preliminar del sistema que pueda ser revisada y evaluada por los empleados y voluntarios de la organización. La versión preliminar debe ser fácil de modificar y actualizar, y debe permitir a los desarrolladores realizar cambios rápidos en función de los comentarios y sugerencias de los usuarios para optimizar la experiencia del usuario antes de implementar la versión final del sistema.
+
+Prototipo low, ya que se quiere realizar una versión preliminar que se pueda modificar sin inconvenientes para buscar requerimientos.
+
+10) La empresa de consultoría TechBridge ha sido contratada para analizar y mejorar los procesos internos de una organización cliente. TechBridge necesita revisar y analizar la documentación existente de la organización, como manuales de procedimientos, políticas y registros históricos, para comprender cómo han evolucionado estos procesos a lo largo del tiempo y cómo se han adaptado a los cambios en el entorno empresarial. Además, el equipo de TechBridge quiere identificar áreas de mejora y oportunidades para optimizar la eficiencia y el rendimiento en función de la información recopilada de la documentación existente.
+
+Document Archeology, porque consiste en analizar los documentos ya existentes para ver la evolución y áreas de mejora.

@@ -1,0 +1,55 @@
+BLASTOFF / KICKOFF
+Esta fase incluye varias reuniones que tienen tareas previas y varios entregables. Es una documentación viva.
+Entregables:
+	-Propósito del proyecto: intencionesy beneficios que traerá el negocio. Explica el qué y por qué del proyecto.
+	-Alcance del trabajo: identifica las áreas de negocio afectadas.
+	-Stakeholders: identifica a los interesados.
+	-Restricciones: aquellas conocidas de antemano, nos limitan y focalizan el trabajo (triángulo de hierro: Alcance-Tiempo-Costo).
+Glosario: Terminología que se utilizará de forma continua en el proyecto, no puede tener dos significados.
+ROM(costo estimado): es lo que más le interesa al cliente, no es fácil de dimensionar, pero tenemos un volumen de información como para hacer una estimación.
+Hechos relevantes.
+Suposiciones.
+Riesgos: toda acta de constitución debe tener una lista preliminar de riesgos.
+GO/NO GO decision: luego de este análisis se tiene suficiente información como para determinar si el proyecto es viable. Si no, se cancela.
+
+Acta de constitución:
+	-Requisitos de alto nivel
+	-Premisas(supuestos) y restricciones
+	-Descripción de alto nivel del proyecto y sus límites
+	-Riesgos de alto nivel
+	-Resumen del cronograma de hitos
+	-Resumen del presupuesto del proyecto
+	-Lista de Stakeholders (Patrocinador, quien pone la plata. Gerente, el responsable)
+	-Requisitos de aprobación del proyecto
+	-Criterios de cierre o cancelación del proyecto
+
+#La parte más difícil de esta fase es buscar y definir correctamente la necesidad.
+
+REQUISITOS
+Uno de los mayores problemas del desarrollo es el malentendido de requisitos. Deben ser SMART, comprendidos y validados por el cliente antes de que se empiece a construir. Deben incluir rationale (razón fundamental) y fit criteron (criterios de aceptación). Se escriben en un lenguaje que todos entiendan.
+-Reutilización de requisitos: puede que lo que me pida el cliente ya lo haya resuelto en otro proyecto, lo que me da una base para lo pedido, no es copiar y pegar, ya que es otro proceso, cliente y contexto.
+-Retrospectiva: una vez finalizada la fase de especificación de requisitos, se revisa: consistencia entre requisitos y todo el proyecto, ya que tengo más información y está más definido el alcance. Además se documentan las lecciones aprendidas: ¿qué hicimos bien? ¿qué hicimos mal? ¿qué haríamos distinto?
+
+el ALCANCE define qué STAKEHOLDERS son afectados:
+Claves: Sponsor (define el valor óptimo del producto), Customer (compra el producto) y Users (lo va a utilizar).
+Otros: Equipo (construcción), Expertos (dominio sobre algún área. Son internos o externos), Management, Inspectores, Marketing, Legales, Negativos (gente que no quiere que suceda el proyecto), Sistemas adyacentes.
+
+Matriz Medelow
+R| Latentes		| Promotores
+E| Mantener satisfechos	| Administrar de cerca
+D|----------------------|-------------------------
+O| Apáticos		| Defensores
+P| Monitorear		| Mantener informados
+		I N T E R É S
+-Promotores: son los más importantes. Requieren atención y compromiso ya que tienen una gran influencia en el éxito del proyecto.
+-Latentes: tienen poder para afectar el proyecto, pero tienen poco interés. Mantenerlos informados, pero no es necesario dedicarles demasiados tiempo y recursos.
+-Defensores: tienen un gran interés en el proyecto, pero tienen poco poder. Mantenerlos satisfechos y comprometidos, pero no es necesario consultarlos en todas las decisiones.
+-Apáticos: tienen poco poder y poco interés en el proyecto. No requieren mucha atención y se pueden mantener informados a través de comunicaciones generales.
+
+
+(EN IMAGEN UT1_TA5.jpeg)
+Parte 1. Armar lista de interesados
+Parte 2. Clasificar a los interesados identificados en función de su nivel de interés y poder para influir en el éxito del proyecto. Utilizar la matriz de Mendelow.
+
+
+
