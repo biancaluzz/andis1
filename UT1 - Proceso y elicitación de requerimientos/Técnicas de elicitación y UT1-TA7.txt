@@ -32,7 +32,7 @@ Sesgo, existe la posibilidad de no pensar en cómo funciona el sistema y solo us
 
 7. Family therapy: no buscan que las personas estén de acuerdo. En cambio, su objteivo es hacer posible que las personas escuchen y comprendan las posiciones de los demás individuos. Se utiliza en grupos diversos de personas, utiliza ideas de la terapia familiar y un bucle de retroalimentación para evitar malentendidos.
 
-7. Persona analysis: construimos perfiles y empezamos a probarlos en como sería el proceso. Destaca la importancia de las personas, facilitando la comunicación entre los miembros del equipo. Se incluye las habilidades, preocupaciones, objetivos y competencias tecnológicas. El objetivo es el fin que estoy buscando con la preocupación.
+8. Persona analysis: construimos perfiles y empezamos a probarlos en como sería el proceso. Destaca la importancia de las personas, facilitando la comunicación entre los miembros del equipo. Se incluye las habilidades, preocupaciones, objetivos y competencias tecnológicas. El objetivo es el fin que estoy buscando con la preocupación.
 
 ¿Cómo elegir la técnica? No existe una mejor, depende de varios factores. El primero es que el analista de negocio se sienta cómodo con la técnica. Consideraciones adicionales: geografía (ubicación de los stakeholders, ej: remoto), legado (si hay que conservar un legado considerable, entonces algunas técnicas más abstractas no serán adecuadas), abstracción (realidades físicas o abstractas).
 
@@ -56,7 +56,6 @@ Brainstorming, ya que pone gran foco en lo creativo y facilitar la generación d
 5) La empresa ABC quiere rediseñar su sitio web y está buscando obtener información detallada sobre cómo los usuarios interactúan con el diseño actual. El equipo de desarrollo desea comprender las dificultades que los usuarios enfrentan y cómo podrían mejorar la experiencia general del usuario.
 
 Workshop, ya que se están realizando cambios en el sisito web y se enfoca en los stakeholders relevantes.
-
 
 6) La empresa de tecnología AlfaBeta está desarrollando un sistema de administración de proyectos para equipos distribuidos. Desean comprender cómo los empleados de diferentes departamentos y ubicaciones geográficas colaboran en proyectos y se comunican entre sí para garantizar la entrega exitosa de proyectos. Además, quieren identificar patrones comunes en la estructura y organización de la información en estos proyectos para desarrollar una solución que facilite la colaboración y la gestión eficiente de los recursos.
 

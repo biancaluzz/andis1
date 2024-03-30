@@ -1,0 +1,42 @@
+Técnica de elicitación: Entrevista
+
+Preguntas guía LOCAL DE COMIDA RÁPIDA
+1) ¿Qué rol ocupas en tu trabajo? 
+Crew Entrenador. Entrena a los nuevos y ordena el sector, guía qué se tiene que hacer y cómo. 
+
+2) ¿Cómo se te asignan las tareas? Se van rotando para ir sacando los pedidos (limpiar, mantener orden, armar pedido, tomar pedido, reponer recursos, cocinar).
+
+3) ¿Hay priorización de pedidos? Sí, los pedidos de PedidosYa se priorizan sobre los pedidos en mostrador
+
+4) ¿La preparación de comida es a demanda? Sí, depende del movimiento cuánto se prepara, ya que la comida preparada hace más de 7 minutos se tira para mantener la calidad.
+
+5) ¿Qué se hace ante un reclamo? El cliente siempre tiene la razón, se hace lo que el cliente reclama y se rehacen pedidos.
+
+6) Cuando llega 1 pedido, ¿cómo procede?
+La respuesta la estructuré en pasos del CASO NORMAL junto a sus ALTERNATIVAS y EXCEPCIONES: 
+	1- Se atiende al cliente (no puede demorar más de 1 minuto la toma del pedido)
+	2- Se cobra
+	3- Sale en pantalla en cocina
+	4- Se cocina el pedido por orden de pedido (cada pedido no deber demorar más de 1 minuto 20 segundos)
+	4A- En caso de haber muchos pedidos, se cocinan los pedidos en paralelo
+	4E- En caso de aparecer un cadete de PedidosYa, se prioriza sobre los pedidos de mostrador
+	5- Se manda por el transfer donde se arman los pedidos:
+		5.1- En bolsa para llevar
+		5.2- En bandeja para comer en el local
+	6- Se prepara la bebida (al final para que no pierda calidad)
+	7- Se lleva el pedido al mostrador
+	8- Se llama a la persona y se le ofrece servilletas y condimentos
+	8E- Ante un reclamo, se rehace el pedido
+	
+BE: Cliente realiza pedido en local de comida rápida.
+
+BUC: Preparación de pedido.
+
+WORKSPACE: Cocina de local de comida rápida.
+
+STAKEHOLDERS: Empresa, Cliente, Empleado, Delivery.
+
+
+CONCLUSIÓN: Considero que está muy bien organizado el procedimiento ante un pedido, además de contar con reglas de calidad como tiempos de atención y preparación.
+
+

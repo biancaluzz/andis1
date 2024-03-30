@@ -1,17 +1,52 @@
+ESCENARIOS
+La creación de escenarios para modelar es una buena herramienta debido a su facilidad de entendimiento por parte de los interesados no técnicos.
+
+El escenario se divide en una serie de pasos que describen el proceso actual. Se identifican las partes interesadas (y las activas), y se discuten posibles mejoras o soluciones en el proceso. Permite definir la funcionalidad de un BUC de manera comprensible. La idea es llegar a un consenso.
+
+Consiste en despojar al problema de prejuicios tecnológicos. En lugar de centrarse en soluciones, se analiza el probelma desde una perspectiva neutral para centrarse en lo que verdaderamente necesita el negocio. Es fundamental tener en cuenta el caso normal antes de explorar alternativas y excepciones.
+	-Alternativas: surgen cuando se desea que el usuario tenga opciones de posibles acciones.
+	-Excepciones: son desviaciones no deseadas pero inevitables del caso normal, por lo que debemos estar preparados. El objetivo es mostrar cómo el escenario maneja de manera segura la excepción.
+
+#Diagramas: Es una alternativa. Muestra cierto grado de procesamiento en paralelo que el texto no permite. También muestra la fusión en el procesamiento (se llega al mismo punto).
+
+ESCENARIOS NEGATIVOS
+Muestra posibilidades negativas o dañinas, como alguien que abusa del trabajo o ontenta defraudarlo. Puede ser útil utilizar escritura de ficción protagonista/antagonista. Examine todos los pasos del caso normal y pregunte si existe la posibilidad de que alguien se oponga o haga un mal uso de esa acción.
+
+Escenario problema 1
+Nombre BE: Cliente quiere realizar pedido
+Nombre y N° BUC: Pedido y entrega de producto a domicilio N°1
+Trigger: Aprieta el botón "Pedir"
+Precondiciones: Cliente está logueado
+Interesados: Tienda (vendedor), deliveries (empleados), consumidor final (cliente)
+Interesados activos: Tienda (vendedor), deliveries (empleados), consumidor final (cliente)
+Pasos del caso normal:
+	1- Armar carrito
+	2- Ingresar método de pago
+	3- Confirmar pedido
+	4- Armar pedido
+	5- Entregar a delivery
+	6- Llevar a domicilio
+	6A- Pagar en la entrega
+Alternativas: 6A
+Excepciones: Falta de stock, se ofrece opciones al cliente
+Resultado: Se cobró el pedido y el cliente lo recibió.
+
+
 Escenario problema 2
 Nombre BE: Persona quiere llevarse un libro
-Nombre y N° BUC: Préstamo y devolución de un libro - N° 2
+Nombre y N° BUC: Préstamo y devolución de un libro N°2
 Trigger: Persona escanea un libro
 Precondiciones: Cuenta con tarjeta de socio activa
 Interesados: Bibliotecario, Biblioteca (dueños), Socio
 Interesados activos: Socio
 Pasos del caso normal:
 	1- Cliente elige libro/s 
-	2- Escanea un libro, por el código de barras, en lector 
+	2- Escanea un libro, por el código de barras, en lector
+	2A- Escanear varios libros 
 	3- Clickea “Pedir préstamo” en la computadora 
 	4- Apoya su tarjeta de socio en el dispositivo de tarjeta para dar sus 	credenciales
 	5- Se le confirma el préstamo del libro y su fecha de devolución, se 	registra en el sistema los nuevos estados
-Alternativas: 2-A: Escanear varios libros
+Alternativas: 2A
 Excepciones: -
 Resultado: Se registró en el sistema que el cliente lleva/devuelve un libro
 
@@ -25,111 +60,69 @@ Interesados: Empresa, cliente
 Interesados activos: Empresa
 Pasos del caso normal
 	1- El cliente elige un automóvil
+	1A- El cliente elige varios automóviles
 	2- Se piden los datos del cliente
 	3- Se especifica el método de pago de la reserva
-	3A- Se paga a través de la aplicación
-	3. Se paga en efectivo al retirar el automóvil
+	3.1- Se paga a través de la aplicación
+	3.2- Se paga en efectivo al retirar el automóvil
 	4- El cliente retira el automóvil, se ingresa en el sistema que fue 	retirado 
-Alternativas: 1A - el cliente elige varios automóviles
+Alternativas: 1A
 Excepciones: El automóvil entregado no funciona correctamente, el cliente lo reclama y se le debe entregar otro
-Resultado
-El cliente se retira con el automóvil que reservó, se ingresa en el sistema que el automóvil fue retirado
-
-
-
+Resultado: El cliente se retira con el automóvil que reservó, se ingresa en el sistema que el automóvil fue retirado
 
 
 Escenario problema 4
-Nombre BE
-Persona quiere pedir comida a domicilio o para llevar
-Nombre y N° BUC
-Pedido en línea de comida a domicilio o para llevar - N° 4
-Trigger
-Cliente clickea “Confirmar pedido”
-Precondiciones
-Cliente debe estar logueado en el sistema
-Interesados
-Dueños del restaurante, repartidores, empleados (cocineros, cajeros, etc.), clientes
-Interesados activos
-Repartidores (posible), cocineros, cajeros, cliente
+Nombre BE: Persona quiere pedir comida a domicilio o para llevar
+Nombre y N° BUC: Pedido en línea de comida a domicilio o para llevar N°4
+Trigger: Cliente clickea “Confirmar pedido”
+Precondiciones: Cliente debe estar logueado en el sistema
+Interesados: Dueños del restaurante, repartidores, empleados (cocineros, cajeros, etc.), clientes
+Interesados activos: Repartidores (posible), cocineros, cajeros, cliente
 Pasos del caso normal
-**
-Alternativas
+	1- Elige la comida y la suma a su pedido 
+	2- Elige forma de recibir la comida
+	3- Ingresa el método de pago
+	4- Confirma el pedido
+	5A1- Cliente va a buscar el pedido  
+	5A2- Cliente recibe el pedido en su domicilio
+	6A- En caso de pagar con efectivo, paga al repartidor o en el local
+Alternativas: 5A1, 5A2 y 6A
+Excepciones: No llegan a repartir a la zona del cliente: El pedido no es aceptado y se le comunica al cliente el porqué.
+Resultado: El cliente tiene su comida de la forma preferida, y el local cobró la transacción
 
-
-Excepciones
-No llegan a repartir a la zona del cliente: El pedido no es aceptado y se le comunica al cliente el porqué.
-Resultado
-El cliente tiene su comida de la forma preferida, y el local cobró la transacción
-
-
-** Pasos del caso normal
-1- Elige la comida y la suma a su pedido 
-2- Elige forma de recibir la comida
-3- Ingresa el método de pago
-4- Confirma el pedido
-5A1- Cliente va a buscar el pedido  
-5A2- Cliente recibe el pedido en su domicilio
-6A- En caso de pagar con efectivo, paga al repartidor o en el local
- 
 
 Escenario problema 5
-Nombre BE
-Clinica médica quiere agendar citas y permitir el acceso a historial médico en portal
-Nombre y N° BUC
-Agenda y acceso a historial médico en clínica N°5
-Trigger
-Cliente presiona el botón “Agendar”
-Precondiciones
-El cliente está ingresado al sistema
-Interesados
-Clínica médica y pacientes (clientes)
-Interesados activos
-Clínica médica
+Nombre BE: Clínica médica quiere agendar citas y permitir el acceso a historial médico en portal
+Nombre y N° BUC: Agenda y acceso a historial médico en clínica N°5
+Trigger: Cliente presiona el botón “Agendar”
+Precondiciones: El cliente está ingresado al sistema
+Interesados: Clínica médica y pacientes (clientes)
+Interesados activos: Clínica médica
 Pasos del caso normal
-**
-Alternativas
-4A- El cliente cancela la consulta
-Excepciones
-El cliente olvida su contraseña al tratarse de una compleja que respeta las reglas de seguridad del OWASP Top 10: el cliente recibe un SMS al celular ingresado en sus datos personales con una contraseña provisoria para acceder.
-Resultado
-El cliente puede agendarse en línea y acceder a su historial médico a cualquier hora y lugar.
-
-
-**
-1-El cliente inicia sesión al portal y tiene acceso a su historial médico
-2-El cliente elige un día y hora con disponibilidad horaria
-3-Se guarda su elección
-4-El cliente recibe una confirmación de su reserva
-4A- El cliente cancela la consulta, por lo que vuelve a quedar disponible el día y hora para otro cliente
+	1-El cliente inicia sesión al portal y tiene acceso a su historial médico
+	2-El cliente elige un día y hora con disponibilidad horaria
+	3-Se guarda su elección
+	4-El cliente recibe una confirmación de su reserva
+	4A- El cliente cancela la consulta, por lo que vuelve a quedar disponible el día y hora para otro cliente
+Alternativas: 4A
+Excepciones: El cliente olvida su contraseña al tratarse de una compleja que respeta las reglas de seguridad del OWASP Top 10: el cliente recibe un SMS al celular ingresado en sus datos personales con una contraseña provisoria para acceder.
+Resultado: El cliente puede agendarse en línea y acceder a su historial médico a cualquier hora y lugar.
 
 
 Escenario problema 7
-Nombre BE
-Rastreo de paquete
-Nombre y N° BUC
-Rastreo de paquete - N°7
-Trigger
-Cliente toca el botón de “Rastrear”
-Precondiciones
-Cliente tiene un código de seguimiento del paquete
-Interesados
-Empresa, cliente, personal y desarrolladores 
-Interesados activos
-Empresa, cliente, personal y desarrolladores 
+Nombre BE: Rastreo de paquete
+Nombre y N° BUC: Rastreo de paquete N°7
+Trigger: Cliente toca el botón de “Rastrear”
+Precondiciones: Cliente tiene un código de seguimiento del paquete
+Interesados: Empresa, cliente, personal y desarrolladores 
+Interesados activos: Empresa, cliente, personal y desarrolladores 
 Pasos del caso normal
-**
-Alternativas
-3A- El código no es válido 
-4A-Se le informa al cliente de la invalidez.
-Excepciones
-Se extravió el paquete.
-Resultado
-El cliente sabe estado y ubicación del paquete
-
-
-**
-1-El cliente ingresa al sistema
-2-Ingresa el código de seguimiento del paquete en el rastreador.
-3-Se verifica la validez del código.
-4-Se presenta la información de estado y ubicación del paquete.
+	1-El cliente ingresa al sistema
+	2-Ingresa el código de seguimiento del paquete en el rastreador.
+	3-Se verifica la validez del código.
+	3A- El código no es válido.
+	4-Se presenta la información de estado y ubicación del paquete. 
+	4A-Se le informa al cliente de la invalidez.
+Alternativas: 3A y 4A
+Excepciones: Se extravió el paquete.
+Resultado: El cliente sabe estado y ubicación del paquete.
