@@ -1,0 +1,52 @@
+DESIGN THINKING
+Proceso no lineal e iterativo para entender a los USUARIOS, cuestionar supuestos, redefinir problemas y crear soluciones innovadoras a través de prototipos y pruebas. Se divide en 5 fases (no necesariamente secuenciales):
+empatizar: entender el problema a través de la investigación de usuarios
+definir: analizar las observaciones y definir problemas centrales
+idear: generar ideas creativas que busquen la innovación. De estas se eligen de acuerdo al valor al usuario, facilidad de implementación e impacto en el negocio.
+prototipar: producir versiones reducidas del producto o características específicas para investigar las ideas generadas
+probar: poner a prueba los prototipos de manera rigurosa. Usar los resultados para nuevas iteraciones y refinamientos. Recibir FEEDBACK de usuarios.
+
+
+
+
+PLATAFORMA DE APRENDIZAJE
+
+PARTE 1
+Persona 1: Juan Pérez 
+Edad: 16
+Ocupación: Estudiante de Liceo B
+Habilidades:  Naturalidad con la tecnología, utilizó sistemas similares anteriormente
+Necesidades y objetivos: Necesitarán tener todos los materiales para las asignaturas disponibles, fechas claras de entrega, orden por asignaturas, foro donde preguntar dudas 
+
+Persona 2: Jorge Rodríguez
+Edad: 33
+Ocupación: Docente de matemáticas en liceo B
+Habilidades:  Conocimientos de matemáticas, utilizó sistemas similares anteriormente, pedagogía
+Necesidades y objetivos: Capacidad de subir archivos a la plataforma, tener un foro de comunicación con sus estudiantes, tener el registro de notas de cada estudiante para calificar desde la plataforma, poder enviar mensajes directos a los alumnos aunque no estén en los foros
+
+Persona 3: María González
+Edad: 55
+Ocupación: Directora Liceo B
+Habilidades:  Gestión, experiencia administrativa, experiencia como docente
+Necesidades y objetivos: Tener una lista de todos los alumnos del Liceo B, poder revisar los datos de cualquier alumno en cualquier momento, capacidad de verificar los cursos y materiales que se encuentran en la plataforma, tener una lista de los profesores y sus datos
+
+
+PARTE 2
+Para Juan Pérez (Rol: estudiante):
+Lista de materias a las que está inscripto, y para cada materia, una sección donde se suban materiales, fechas de entrega e información de interés para el curso.
+Calendario donde se marquen automáticamente las tareas que se asignan en cada materia, con notificaciones por correo electrónico cuando falta cierto tiempo para la entrega. Estas notificaciones deberán poder ser configuradas por los alumnos.
+Foro para publicar las preguntas que surjan de la materia. El foro será compartido, cualquiera en el curso podría escribir en él para fomentar la participación y la ayuda entre alumnos. El foro permite mencionar a personas específicas para enviarles una notificación. También permite subir archivos multimedia.
+Funciones de chat, con un canal de mensajería con los profesores.
+
+Para Jorge Rodríguez (Rol: docente):
+Subida de archivos para que los alumnos los descarguen, permitiendo escribir un texto a modo de consigna sobre qué hacer con el archivo. Cuando se sube el archivo, se notifica a todos los alumnos inscriptos en la materia
+Acceso al historial de notas de cada alumno, así como también poder colocar entregas en la plataforma, con su fecha correspondiente, que tendrán nota y contará para el historial del alumno.
+Recibir notificaciones cuando el promedio de notas de cierto alumno es menor o igual a un umbral establecido por el docente, para poder ayudar al alumno a mejorar sus calificaciones.
+Enviar mensajes a los alumnos directamente, para comunicar notas o avisos particulares para un alumno.
+
+Para María González (Rol: directora):
+Acceso a todos los cursos y sus materiales para supervisar y sugerir mejoras.
+Lista de todos los alumnos con sus datos. Poder filtrar según clase, año lectivo, curso.
+Lista de profesores con sus datos. Poder filtrar por materia.
+Posibilidad de contactar tanto alumnos como profesores a través de mensajes directos.
+Foro general para comunicar noticias a todos los alumnos simultáneamente.

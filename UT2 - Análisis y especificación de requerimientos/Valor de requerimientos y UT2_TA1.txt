@@ -1,0 +1,130 @@
+Hay que centrarse en el problema y no en la solución tecnológica.
+
+VALOR
+Lo que el cliente estaría dispuesto a pagar por él. 3 factores:
+recompensa: lo que se gana al tener una función específica
+penalización: lo que se pierde al no tenerla
+costo: lo que se debe pagar para obtenerla
+El valor depende de la organización. Ejemplo: una organización comercial busca ganancias económicas, una científica exactitud en sus investigaciones. 
+
+#Para medirlo asigno una puntuación a cada factor. Si el valor total es mayor al costo de implementar la funcionalidad, entonces es valiosa y debe incluirse.
+
+LÍMITES
+Hay que cuestionarlos y buscar eliminarlos. Una limitación es una restricción impuesta:
+	una política empresarial que indica cómo realizar un proceso
+	una directiva de cómo implementar la solución
+Problema: las limitaciones se asumen reales e inmutables. Pero, la eliminación de una limitación puede conducir a una INNOVACIÓN.
+
+
+
+PARTE 1
+R002
+Recompensa: 3
+Le aporta valor al usuario, y la visibilidad de los restaurantes
+
+Penalización: 2
+El cliente no siempre pide al más cercano, sino a su preferido
+
+Costo: 4
+La implementación involucra el cálculo de distancias, filtros y localización, por lo que no es simple de implementar.
+
+R003
+Recompensa: 5
+Es esencial acceder al menú al tratarse de una empresa de delivery de comida, sino no cumple su funcionalidad.
+
+Penalización: 5
+Sin menú, no sirve la aplicación.
+
+Costo: 3
+Es cada restaurante que ingresa su menú, pero involucra procesaro todo el menú que tiene el restaurante.
+
+R004
+Recompensa: 4
+Ya que es esencial que el cliente pueda pedir varias cosas para facilitar su UX, asi no debe realizar pedidos de a uno.
+
+Penalización: 5
+Si el usuario no tiene esta funcionalidad, va a elegir otra aplicación.
+
+Costo: 1
+Es fácil de implementar.
+
+R005
+Recompensa: 5
+Agiliza la transacción, además de ser lo usual en la actualidad, por lo que el cliente está habituado.
+
+Penalización: 3
+Es una comodidad que podría contrubuir a pedir en otro lado, pero si no es posible, hay clientes que igual van a pagar en efectivo.
+
+Costo: 1
+Ya que son características que ya están implementadas en distintos sistemas.
+
+R006
+Recompensa: 2
+Es una funcionalidad muy específica, que le podría llegar a agregar valor a pedidos para eventos (por ejemplo), pero no para un cliente estándar.
+
+Penalización: 1
+No tener esta funcionalidad, no cambia el valor del producto.
+
+Costo: 2
+No requiere adicional, pero requiere disponibilidad de cadetes a las horas estipuladas.
+
+R007
+Recompensa: 2
+No es necesario, aunque podría llegar a agregar valor al saber cuándo sale tu pedido sin necesidad de estar pendiente a que llegue el cadete.
+
+Penalización: 2
+Si le avisa al cliente cuándo llegará el pedido, puede que termine siendo más ágil, por lo que habría menos demoras. Pero tampoco es necesaria su implementación.
+
+Costo: 4
+Tiene complejidad logística a nivel de restaurante, aplicación, es necesario tener vigilados los cadetes con rastreador, localizador en vivo, etc. 
+
+R008
+Recompensa: 5
+Ayuda al usuario a elegir restaurantes, también puede expresarse y permite al usuario sentirse parte.
+
+Penalización: 4
+Es un buen diferencial que generará engagement con el usuario y podrá hacer que el cliente elija esta app sobre otras, pero no afecta su correcto funcionamiento el no contar con esta funcionalidad.
+
+Costo: 2
+
+
+R009
+Recompensa: 3
+Penalización: 2
+Costo: 2
+
+R010
+Recompensa: 3
+Penalización: 1
+Costo: 5
+
+R011
+Recompensa: 2
+Penalización: 2
+Costo: 4
+
+R012
+Recompensa: 3
+Penalización: 3
+Costo: 1
+
+R013
+Recompensa: 2
+Penalización: 3
+Costo: 3
+
+R014
+Recompensa: 4
+Penalización: 3
+Costo: 2
+
+R015
+Recompensa: 3
+Penalización: 2
+Costo: 5
+
+
+PARTE 2
+Al tratarse de muchos requisitos, se nos ocurrió la formula: (recompensa+penalización)/costo
+Ya que la recompensa en fundamental para el usuario, mientras que sin tener los esencial (que detectamos a través de su nivel de penalización), la app no funcionaría como se desea. Por otro lado, es costo es esencial para cualquier organización.
+

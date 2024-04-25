@@ -1,0 +1,177 @@
+UT1_TA3
+1. "fácil" no es medible
+2. falta contexto 
+3. "todos los navegadores" no es especifico
+4. falta contexto de qué datos debe permitir exportar
+5. "grandes volumenes de datos" no es medible
+6. "seguro" no es medible
+7. SMART
+8. falta contexto de quién lo testea para llegar a esa tasa de error, ya que 2 personas distintas seguro obtengan resultados distintos.
+9. "personalización" qué incluye?
+10. SMART
+-----------------------------------
+
+UT1_TA4
+1. entro a weba a buscar los horarios en Bedelia - Horarios UCU
+2. descargo el pdf de horarios de informática
+3. abro el pdf y elijo a cuál clase de andis1 me quiero anotar
+4. anoto el codigo de la materia
+5. el día de inscripción, ingreso al sistema people
+6. ingreso el codigo de la materia y el semestre
+7. me anoto a la materia
+
+area de trabajo: bedelia
+BE: alumno se quiere inscribir a curso
+BUC: inscripción a curso
+PUC: inscripción a curso desde un sistema automatizado.
+
+-------------------------------
+
+UT1_TA7
+1. persona analysis
+2. apprenticing
+3. family therapy
+4. Workshop BUC --> BRAINSTORMING
+5. entrevista --> WORKSHOP
+6. discussion forums --> ENTREVISTA
+7. Mind map
+8. discussion forums
+9. Prototipo low/high
+10. Document Archeology
+
+---------------------------------------
+
+UT1_TA8
+(1)
+Nombre BE: Cliente quiere pedir en la tienda
+Nombre y Nro BUC: Cliente pide en la tienda
+Trigger: El cliente ingresa a la página
+Precondición: -
+Interesados: tienda, cliente, distribuidora de alimentos
+Interesados activos: tienda
+Pasos del caso normal
+1. Cliente visita la tienda en línea de comestibles
+1A. Cliente se va sin pedir
+2. Cliente elige qué pedir
+3. Cliente pide
+3E. No hay stock, se le ofrece otro comestible
+4. Tienda cobra
+5. Tienda prepara el pedido
+6. Tienda entrega el pedido.
+Resultado: el cliente pide y recibe su pedido.
+
+(2)
+Nombre BE: Cliente quiere hacer el préstamo de un libro
+Nombre y Nro BUC: Cliente pide el préstamo de un libro 
+Trigger: Cliente solicita un libro como préstamo
+Precondición
+Interesados: biblioteca, cliente, autores, editorial
+Interesados activos: biblioteca
+Pasos del caso normal
+1. Cliente se acerca a mostrador y solicita un libro
+2. Trabajador busca el libro
+2A. Trabajador no encuentra el libro o ya está prestado, pregunta si el cliente quiere otro libro
+3. Cliente firma que tomó el libro
+4. Trabajador entrega libro
+Resultado: cliente hace el préstamo del libro
+
+(3)
+Nombre BE: Cliente quiere alquilar un auto
+Nombre y Nro BUC: Cliente alquila un auto
+Trigger: Cliente solicita un auto
+Precondición:
+Interesados: automotora, cliente, fabricantes de autos, importador de autos
+Interesados activos: automotora
+Pasos del caso normal
+1. Cliente solicita un auto en la tienda para determinada fecha
+2. Trabajador muestra las opciones disponibles en esa fecha
+3. Cliente elige el auto y paga la seña
+3A. Cliente no le gusta ninguna opción y se retira
+4. Trabajador registra la reserva
+5. Cliente va a recoger el auto en la fecha estipulada
+5.1E. Cliente no puede ir a recoger el auto ese día, por lo que se le ofrece otro día
+5.2E Automotora no tiene el auto reservado disponible, ya que fue chocado o no devuelto por cliente anterior, por lo que le ofrecen al cliente un reembolso u otro auto disponible con características similares.
+Resultado: Cliente reserva y recoge el auto
+
+(4)
+Nombre BE: Cliente quiere pedir comida 
+Nombre y Nro BUC: Cliente pide comida en línea al restaurante
+Trigger: El cliente pide comida en la pagina del restaurante
+Precondición: el cliente tiene una cuenta
+Interesados: Cliente, distribuidora de alimentos, restaurante
+Interesados activos: restaurante
+Pasos del caso normal
+1. Cliente pide en la pagina del restaurante
+1A. No le permite comprar porque no está el plato disponible, por lo que debe seleccionar otro plato
+2. Cliente indica si quiere para llevar o entrega a domicilio
+3. Cliente confirma el pedido y paga
+4. Cocinero recibe el pedido y lo prepara
+5. Cocinero entrega comida a repartidor o a cliente
+5E. Cliente se queja del plato, se le encarga al cocinero volver a prepararlo
+Resultado: Cliente recibe su comida
+
+(5)
+Nombre BE: Paciente quiere realizar trámites de agenda
+Nombre y Nro BUC: Paciente se agenda
+Trigger: Cliente confirma agenda en clínica médica
+Precondición: cliente es socio de la clínica, y se le asigna automáticamente un usuario que contiene sus datos
+Interesados: clínica, paciente, doctores
+Interesados activos: clínica
+Pasos del caso normal:
+1. Cliente accede a la clínica en línea
+2. Cliente agenda una cita para tal fecha
+2A. Cliente quiere cancelar la cita
+2E. El doctor está enfermo ese día, y se mueve la cita 
+Resultado: Cliente agenda cita médica
+
+(6)
+Nombre BE: Cliente quiere comprar un viaje
+Nombre y Nro BUC:  Cliente busca viajar
+Trigger: Cliente ingresa a la página de viajes
+Precondición: cliente se creó una cuenta en la agencia
+Interesados: agencia de viaje, cliente, aerolíneas, hoteles, guías turísticos 
+Interesados activos: agencia de viaje
+Pasos del caso normal
+1. Cliente ingresa a la plataforma de la agencia de viaje
+2. Cliente elige opciones de vuelo, hoteles y paquetes turísticos
+3. Cliente reserva el viaje 
+3A. Cliente cancela la reserva
+Resultado: Cliente logra reservar un viaje
+
+(7)
+Nombre BE: Cliente quiere enviar un paquete
+Nombre y Nro BUC: Cliente envía un paquete
+Trigger: Cliente llega a la empresa a enviar un paquete
+Precondición: -el paquete a enviar respeta las normativas
+Interesados: empresa logística, cliente, empresa que hace las cajas de envío y etiquetas  
+Interesados activos: empresa logística
+Pasos del caso normal
+1. Cliente llega a enviar un paquete
+2. Trabajador recepciona el paquete y revisa el peso y destino para ver el costo
+2A. Cliente se arrepiente, y no envía
+3. Cliente paga el envío express o normal, según prefiera
+4. Trabajador registra el nuevo paquete con su correspondiente destino y tipo de envío para que pueda ser rastreado
+5. Trabajador le entrega código de seguimiento a cliente
+6. Transporte lleva el paquete a donde corresponde
+6E1. Transporte confunde el paquete y se pierde, por lo que hay retraso al enviarlo
+6E2. Roban el paquete y nunca llega, por lo que se le reembolsa el envío al cliente.
+7. Transporte entrega el paquete y le hace al cliente que lo recibe firmar que llegó bien. 
+Resultado: cliente envía el paquete al destino que desea y llega.
+
+(8)
+Nombre BE: estudiante quiere acceder a recursos didácticos
+Nombre y Nro BUC: estudiante quiere acceder a recursos didácticos
+Trigger: Estudiante ingresa a "recursos didácticos"
+Precondición: estudiante tiene cuenta en el sistema
+Interesados: estudiante, profesor, institución
+Interesados activos: institución 
+Pasos del caso normal
+1. Estudiante ingresa al apartado "recursos didácticos"
+2. Estudiante selecciona material
+3. Estudiante accede al material
+3A. Material no está disponible
+Resultado
+
+------------------------------------------------------
+
+
