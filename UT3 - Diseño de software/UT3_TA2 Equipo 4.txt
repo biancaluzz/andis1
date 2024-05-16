@@ -1,0 +1,42 @@
+PARTE 1
+a.
+Módulo de búsqueda y catálogo de productos
+-mostrarle al usuario todos los productos
+-permitirle al usuario buscar productos en particular
+
+Módulo de carrito y pago
+-persistir los productos que el usuario quiere comprar
+-realizar el pago
+
+Módulo de historial de pedidos y perfil del usuario
+-persisitir y mostrarle al usuario todo lo que compró hasta ahora
+-persistir y mostrar los datos ingresados en su perfil
+
+
+b.
+Descubrimiento: le salió un anuncio de la aplicación, le fue recomendada o lo busco en Google
+ 	|
+	v
+Consideración: utilizó el buscador para encontrar los precios de los productos y comparó con la competencia identificando puntos fuertes
+ 	|
+	v
+Compra: agregó productos al carrito y presionó comprar
+ 	|
+	v
+Retención: después de la compra se le dio un cupón de descuento para la próxima compra. Además, a partir de su historial de pedidos se le recomendaron productos que le interesaron
+ 	|
+	v
+Recomendación: dejó una reseña satisfactoria y le contó a sus amigos.
+
+PARTE 2
+¿Los módulos tienen responsabilidades claramente definidas y relacionadas entre sí?
+Los módulos tienen más de una responsabilidad. Van a tener dependencias entre sí,pero no forman parte del mismo módulo. Tanto carrito por un lado y pago por otro, y historial de pedidos por un lado y perfil del usuario por otro. Ya que se encargan de partes distintas del sistema.
+
+¿Existen dependencias innecesarias entre los módulos? 
+Hay dependencia innecesaria entre el historial de pedido y carrito de pago. el historial de pago no debería interactuar con el carrito, pero al revés si.
+
+
+¿Se puede modificar un módulo sin afectar significativamente a los otros?
+Es posible modificar un módulo sin afectar a los otros, ya que son bastante independientes entre unos y otros. Cada uno tiene bien definida sus responsabilidades, por lo que al cambiar uno, no te afecta al otro.
+
+
